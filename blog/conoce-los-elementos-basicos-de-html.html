@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificable</title>
+    <style>
+        * {
+            outline: 1px dashed red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <span>
+            <a href="../">
+                Codificable
+            </a>
+        </span>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/index.html">
+                        Blog
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Sobre nosotros
+                    </a>
+                </li>
+            </ul>           
+        </nav>
+    </header>
+    <main>
+        <article>
+            <span>
+                <span>
+                    26 Julio, 2023
+                </span>
+                <span>
+                    Principiante
+                </span>
+            </span>
+            <span>
+                <img src="../imgs/photo.png">
+                <span>
+                    Micaela Bolognesi
+                </span>
+                <span>
+                    Frontend Developer - Vsale
+                </span>
+            </span>
+            
+            <h1>
+                Conoce los Elementos Básicos de HTML
+            </h1>
+            <img src="../imgs/article.jpg">
+            <p>
+                Si alguna vez te has preguntado cómo se construyen las páginas web, estás en el lugar correcto. En este artículo, te introduciremos a los fundamentos de HTML, el lenguaje de marcado que da vida a las páginas web. Así que prepárate para explorar un mundo emocionante y creativo.
+            </p>
+
+            <h2>
+                ¿Qué es HTML?
+            </h2>
+            <p>
+                HTML, o HyperText Markup Language (Lenguaje de Marcado de Hipertexto), es el lenguaje esencial para crear contenido en la web. Con HTML, podemos estructurar una página, añadir texto, imágenes, enlaces y mucho más. Es como el armazón que sostiene toda la estructura de tu sitio web.
+            </p>
+            <p>
+                Vamos a sumergirnos en algunos elementos fundamentales de HTML que te permitirán comenzar a construir tu primera página web:
+            </p>
+            
+            <h2>
+                Etiquetas y Elementos
+            </h2>
+            <p>
+                En HTML, utilizamos etiquetas para definir los diferentes elementos de una página. Cada etiqueta tiene un significado y función específicos. Por ejemplo:
+            </p>
+            <ul>
+                <li>
+                    <code>
+                        `&lt;p&gt;`
+                    </code>
+                    <span>
+                        - Define un párrafo de texto.
+                    </span>
+                </li>
+                <li>
+                    <code>
+                        `&lt;h1&gt;`, `&lt;h2&gt;`, ..., `&lt;h6&gt;`
+                    </code>
+                    <span>
+                        - Define encabezados de diferentes niveles.
+                    </span>
+                </li>
+                <li>
+                    <code>
+                        `&lt;a&gt;`
+                    </code>
+                    <span>
+                        - Crea un enlace a otra página o recurso.
+                    </span>
+                </li>
+            </ul>
+            
+            <h3>
+                Listas
+            </h3>
+            <p>
+                Las listas son útiles para organizar contenido. Tenemos dos tipos de listas en HTML:
+            </p>
+            
+            <h4>
+                Lista ordenada
+            </h4>
+            <pre>
+                <code>
+                    &lt;ol&gt;
+                        &lt;li&gt;Primer ítem&lt;/li&gt;
+                        &lt;li&gt;Segundo ítem&lt;/li&gt;
+                        &lt;li&gt;Tercer ítem&lt;/li&gt;
+                    &lt;/ol&gt;
+                </code>
+            </pre>
+            
+            <h4>
+                Lista desordenada
+            </h4>
+            <pre>
+                <code>
+                    &lt;ul&gt;
+                        &lt;li&gt;Manzanas&lt;/li&gt;
+                        &lt;li&gt;Naranjas&lt;/li&gt;
+                        &lt;li&gt;Plátanos&lt;/li&gt;
+                    &lt;/ul&gt;
+                </code>
+            </pre>
+            
+            <h4>
+                Imágenes
+            </h4>
+            <p>
+                Para mostrar imágenes en tu página, utilizamos la etiqueta <code>`&lt;img&gt;`</code>. Asegúrate de incluir el atributo <code>`src`</code> con la URL de la imagen que deseas mostrar.
+            </p>
+            <code>
+                &lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;
+            </code>
+
+            <h2>
+                Propiedad display y atributos esenciales
+            </h2>
+            <p>
+                La siguiente tabla muestra algunos elementos HTML comunes, su propiedad <code>`display`</code> y algunos atributos principales que pueden ser utilizados con cada elemento.
+            </p>
+            <table>
+                <thead>
+                    <th scope="col">
+                        Elemento
+                    </th>
+                    <th scope="col">
+                        Display
+                    </th>
+                    <th scope="col">
+                        Principales atributos
+                    </th>
+                </thead>
+                <tr>
+                    <th scope="row">
+                        p
+                    </th>
+                    <td>
+                        block
+                    </td>
+                    <td>
+                        id, class, style
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">
+                        h1, h2, ..., h6
+                    </th>
+                    <td>
+                        block
+                    </td>
+                    <td>
+                        id, class, style
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">
+                        img
+                    </th>
+                    <td>
+                        inline
+                    </td>
+                    <td>
+                        src, alt, width, height, id, class, style
+                    </td>
+                </tr>
+            </table>
+            
+            <h2>
+                ¡Hora de ponerlo en práctica!
+            </h2>
+            <p>
+                Con estos elementos básicos de HTML, estás listo para comenzar a construir tus propias páginas web. No te preocupes si al principio parece un poco abrumador, ¡la práctica es la clave para el éxito!
+            </p>
+        </article>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="../imgs/facebook.svg">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="../imgs/linkedin.svg">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="../imgs/twitter.svg">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="../imgs/github.svg">
+                </a>
+            </li>
+        </ul>
+        <span>&copy; 2023 Codificable - Todos los derechos reservados</span>
+    </footer>
+</body>
+</html>
