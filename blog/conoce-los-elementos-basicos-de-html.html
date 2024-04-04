@@ -4,11 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codificable</title>
-    <style>
-        * {
-            outline: 1px dashed red;
-        }
-    </style>
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
     <header>
@@ -33,7 +29,7 @@
         </nav>
     </header>
     <main>
-        <article>
+        <article class="articulo-detalle">
             <span>
                 <span>
                     26 Julio, 2023
@@ -43,19 +39,21 @@
                 </span>
             </span>
             <span>
-                <img src="/imgs/photo.png">
-                <span>
-                    Micaela Bolognesi
-                </span>
-                <span>
-                    Frontend Developer - Vsale
-                </span>
+                <img src="/assets/imgs/photo.png">
+                <div>
+                    <span>
+                        Micaela Bolognesi
+                    </span>
+                    <span>
+                        Frontend Developer - Vsale
+                    </span>
+                </div>
             </span>
             
             <h1>
                 Conoce los Elementos Básicos de HTML
             </h1>
-            <img src="/imgs/article.jpg">
+            <img src="/assets/imgs/article.jpg">
             <p>
                 Si alguna vez te has preguntado cómo se construyen las páginas web, estás en el lugar correcto. En este artículo, te introduciremos a los fundamentos de HTML, el lenguaje de marcado que da vida a las páginas web. Así que prepárate para explorar un mundo emocionante y creativo.
             </p>
@@ -77,28 +75,33 @@
                 En HTML, utilizamos etiquetas para definir los diferentes elementos de una página. Cada etiqueta tiene un significado y función específicos. Por ejemplo:
             </p>
             <ul>
-                <li>
-                    <code>
-                        `&lt;p&gt;`
-                    </code>
-                    <span>
-                        - Define un párrafo de texto.
+                <li><span>
+                        <code>
+                            `&lt;p&gt;`
+                        </code>
+                        <span>
+                            - Define un párrafo de texto.
+                        </span>
                     </span>
                 </li>
                 <li>
-                    <code>
-                        `&lt;h1&gt;`, `&lt;h2&gt;`, ..., `&lt;h6&gt;`
-                    </code>
                     <span>
-                        - Define encabezados de diferentes niveles.
+                        <code>
+                            `&lt;h1&gt;`, `&lt;h2&gt;`, ..., `&lt;h6&gt;`
+                        </code>
+                        <span>
+                            - Define encabezados de diferentes niveles.
+                        </span>
                     </span>
                 </li>
                 <li>
-                    <code>
-                        `&lt;a&gt;`
-                    </code>
                     <span>
-                        - Crea un enlace a otra página o recurso.
+                        <code>
+                            `&lt;a&gt;`
+                        </code>
+                        <span>
+                            - Crea un enlace a otra página o recurso.
+                        </span>
                     </span>
                 </li>
             </ul>
@@ -142,9 +145,11 @@
             <p>
                 Para mostrar imágenes en tu página, utilizamos la etiqueta <code>`&lt;img&gt;`</code>. Asegúrate de incluir el atributo <code>`src`</code> con la URL de la imagen que deseas mostrar.
             </p>
-            <code>
-                &lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;
-            </code>
+            <pre>
+                <code>
+                    &lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;
+                </code>
+            </pre>
 
             <h2>
                 Propiedad display y atributos esenciales
@@ -208,29 +213,33 @@
         </article>
     </main>
     <footer>
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="/imgs/facebook.svg">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="/imgs/linkedin.svg">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="/imgs/twitter.svg">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="/imgs/github.svg">
-                </a>
-            </li>
-        </ul>
-        <span>&copy; 2023 Codificable - Todos los derechos reservados</span>
-    </footer>
+        <nav>
+            <div>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/imgs/facebook.svg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/imgs/linkedin.svg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/imgs/twitter.svg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/imgs/github.svg">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <span>&copy; 2023 Codificable - Todos los derechos reservados</span>
+        </nav>
+    </footer> 
 </body>
 </html>

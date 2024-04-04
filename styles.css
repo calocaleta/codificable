@@ -1,0 +1,167 @@
+* {
+    /* Para ver como se distribuye mientras diseño*/
+    outline: 1px dashed red;
+    /* Para que las dimensiones ( contenido + padding + border ) se ajusten intuitivamente */
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    display: block;
+    height: 1rem;
+}
+
+/* Logotipo */
+header > nav > span > a {
+    color:  #6D28D9;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+/* Menu de navegación */
+header > nav * {
+    display: inline;
+}
+
+/* Elementos del menú de navegación */
+header > nav > ul > li > a {
+    color: #757575;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin: 1rem;
+}
+
+/* Main */
+main {
+    text-align: center;
+}
+/* Main -> Hero */
+main > section {
+    background-color: #F5F5F5;
+}
+main > section > div {
+    width: 50vw;
+}
+main > section > a {
+    text-decoration: none;
+    color: #6D28D9;
+}
+
+/* Listado de Articulos */
+main > div {
+    width: 50vw;
+    text-align: left;
+}
+
+
+/* Articulo en Listado de Resultados */
+/* Fecha */
+article.articulo-resultado > span > span:first-child {
+    color: #525252;
+    font-size: 0.7rem;
+}
+/* Tipo */
+article.articulo-resultado > span > span:last-child {
+    color: #525252;
+    font-size: 0.7rem;
+    background-color: #F5F5F5;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+}
+/* Autor*/
+article.articulo-resultado > span:last-child > img {
+    display: inline;
+}
+article.articulo-resultado > span:last-child > div {
+    display: inline;
+}
+article.articulo-resultado > span:last-child > div > span {
+    display: inline;
+}
+article.articulo-resultado > span:last-child > div > span:first-child {
+    font-weight: 700;
+}
+
+
+/* Articulo en Detalle */
+article.articulo-detalle {
+    text-align: left;
+}
+
+article.articulo-detalle > span:first-child {
+    display: block;
+}
+/* Fecha */
+article.articulo-detalle > span:first-child > span:first-child {
+    color: #525252;
+    font-size: 0.7rem;
+}
+/* Tipo */
+article.articulo-detalle > span:first-child > span:last-child {
+    color: #525252;
+    font-size: 0.7rem;
+    background-color: #F5F5F5;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+}
+/* Autor*/
+article.articulo-detalle > span:nth-child(2) > img {
+    display: inline;
+}
+article.articulo-detalle > span:nth-child(2)> div {
+    display: inline;
+}
+article.articulo-detalle > span:nth-child(2) > div > span {
+    display: inline;
+}
+article.articulo-detalle > span:nth-child(2) > div > span:first-child {
+    font-weight: 700;
+}
+
+article.articulo-detalle > ul {
+    color: #6D28D9;
+}
+article.articulo-detalle > ul > li > span {
+    color: #171717;
+}
+
+article.articulo-detalle > pre {
+    background-color: #171717;
+    color: #F5F5F5;
+    border-radius: 0.5rem;
+}
+
+/* Footer */
+footer {
+    display: block;
+    height: 1rem;
+}
+
+/* Logotipo */
+footer > nav > span > a {
+    color:  #6D28D9;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+/* Menu de navegación */
+footer > nav * {
+    display: inline;
+}
+
+/* Menu de navegación */
+footer > nav > span {
+    display: block;
+    text-align: center;
+}
+
+
+/* Elementos del menú de navegación */
+footer > nav > ul > li > a {
+    color: #757575;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin: 1rem;
+}
