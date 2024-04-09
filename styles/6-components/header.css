@@ -1,0 +1,42 @@
+.header {
+    padding-block: 24px;
+  }
+   
+  .header > * {
+    display: inline-block;
+  }
+   
+  .header__logo {
+    margin: 0;
+    margin-right: 64px; /* o var(--spacing-16) */
+   
+    font-family: var(--display);
+    font-size: var(--font-3xl);
+    line-height: var(--leading-none);
+    font-weight: 500;
+    color: hsl(var(--primary));
+  }
+   
+  .header__logo a {
+    text-decoration: none;
+    color: inherit;
+  }
+   
+  .header__logo a:hover {
+    color: hsl(var(--primary-hover));
+  }
+
+  /* Menu de navegación */
+.header__nav * {
+    display: inline-block;
+}
+
+/* Elementos del menú de navegación */
+.header__ul > li > * {
+    color: #757575;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin: 1rem;
+
+    padding: 8px;
+}
